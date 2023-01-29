@@ -57,6 +57,10 @@
                 }
             }
             .buttons{
+                @include mobileScreen{
+                    flex-direction: column !important;
+                    gap: 10px;
+                }
                 span{
                     font-size: 13px;
                 }
